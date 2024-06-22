@@ -1,3 +1,4 @@
+# This implementation is adapted from Min-K% and WikiMIA: https://github.com/swj0419/detect-pretrain-code 
 import os
 from tqdm import tqdm
 from process_data import create_dataset

@@ -1,32 +1,14 @@
 # ReCaLL: Membership Inference via Relative Conditional Log-Likelihoods 🔍
 
+[![Website](https://img.shields.io/badge/Website-Project%20Page-yellow)](https://royxie.com/recall-project-page)
 [![arXiv](https://img.shields.io/badge/arXiv-2404.02936-b31b1b.svg)](https://arxiv.org/abs/2404.02936)
-[![Website](https://img.shields.io/badge/Website-Project%20Page-blue)](https://example.com/recall-project-page)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-ReCaLL is a novel membership inference attack (MIA) that detects pretraining data in large language models (LLMs). It leverages the conditional language modeling capabilities of LLMs to identify whether a given piece of text was part of the model's training data.
 
-## 🌟 Key Features
-
-- 🥇 State-of-the-art performance on WikiMIA benchmark
-- 🎯 Robust to random prefix selection
-- 🤖 Effective with synthetic prefixes from LLMs
-- 🔧 Ensemble approach for enhanced performance
-
-[//]: # (## 📊 How ReCaLL Works?)
-
-[//]: # ()
-[//]: # (ReCaLL leverages the conditional language modeling capabilities of LLMs to identify whether a given piece of text was part of the model's training data. Please refer to our [paper]&#40;https://arxiv.org/abs/2404.02936&#41; for more details.)
+## 📝 Overview
+This is the official repository for ReCaLL: Membership Inference via Relative Conditional Log-Likelihoods. The repo contains the original ReCaLL implementation on the WikiMIA benchmark dataset. Check out our [website](https://royxie.com/recall-project-page/) and [paper](https://arxiv.org/abs/2404.02936) for more information.
 
 ## 🛠 Installation
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/recall-mia.git
-   cd recall-mia
-   ```
-
-2. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
@@ -69,13 +51,13 @@ The script will output results in JSON format and generates visualizations for:
 - Min-k% probability
 - Min-k++ probability
 
-ReCaLL outperforms existing MIAs on the WikiMIA benchmark, as shown in the following graph:
+Example visualization:
 
 <p align="center">
   <img src="/out/example.png" width="80%" height="80%">
 </p>
 
-## 📚 Citation
+## 🌟 Citation
 
 If you use ReCaLL in your research, please cite our paper:
 
@@ -90,13 +72,5 @@ If you use ReCaLL in your research, please cite our paper:
 
 ## 📬 Contact
 
-For questions or issues, please open an [issue](https://github.com/your-username/recall-mia/issues) on GitHub or contact the authors directly.
+For questions or issues, please open an [issue](https://github.com/ruoyuxie/recall/issues) on GitHub or [contact](https://royxie.com/) the authors directly.
 
----
-
-[//]: # ()
-[//]: # (<p align="center">)
-
-[//]: # (  Made with ❤️ by the ReCaLL team)
-
-[//]: # (</p>)
