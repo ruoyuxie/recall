@@ -9,9 +9,9 @@ def save_jsonl(data, path):
         for example in data:
             f.write(json.dumps(example, ensure_ascii=False) + "\n")
 
-def create_dataset(dataset_names,sub_dataset_name, output_dir, num_shots):
+def create_dataset(dataset_name,sub_dataset_name, output_dir, num_shots):
     
-    if dataset_names == "wikimia":
+    if dataset_name == "wikimia":
         dataset = load_dataset("swj0419/WikiMIA", split=f"WikiMIA_length{sub_dataset_name}")
         member_data = []
         nonmember_data = []

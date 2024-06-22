@@ -39,11 +39,8 @@ def do_plot(prediction, answers, sweep_fn=sweep, metric="auc", legend=""):
     low5 = tpr[np.where(fpr < 0.05)[0][-1]]
     low10 = tpr[np.where(fpr < 0.1)[0][-1]]
     low20 = tpr[np.where(fpr < 0.2)[0][-1]]
-    print(
-        "Attack %s AUC %.4f, Accuracy %.4f, TPR@0.1%%FPR of %.4f, TPR@1%%FPR of %.4f, TPR@5%%FPR of %.4f"
-        % (legend, auc_value, acc, low01, low1, low5, low10, low20)
-    )
-
+    print('Attack %s AUC %.4f, Accuracy %.4f, TPR@0.1%%FPR of %.4f, TPR@1%%FPR of %.4f, TPR@5%%FPR of %.4f'%(legend, auc_value, acc, low01, low1, low5))
+    
     metric_text = ""
     if metric == "auc":
         metric_text = "auc=%.3f" % auc_value

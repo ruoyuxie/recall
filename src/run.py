@@ -20,7 +20,6 @@ import torch
 from transformers import (
     AutoTokenizer,
     AutoModelForCausalLM,
-    MambaConfig,
     MambaForCausalLM,
 )
 
@@ -230,7 +229,7 @@ if __name__ == "__main__":
     all_output = evaluate_data(full_data, model1, model2, tokenizer1, tokenizer2, nonmember_prefix, accelerator, num_shots, pass_window, synehtic_prefix)
     
     # save the results
-    all_output_path = os.path.join(output_dir, f"{dataset}", "results", f"{target_model.split('/')[1]}_{ref_model.split('/')[1]}", f"{sub_dataset}", f"{num_shots}_shot_{sub_dataset}.json")
+    all_output_path = os.path.join(output_dir, f"{dataset}", f"{target_model.split('/')[1]}_{ref_model.split('/')[1]}", f"{sub_dataset}", f"{num_shots}_shot_{sub_dataset}.json")
     os.makedirs(os.path.dirname(all_output_path), exist_ok=True)
     dump_jsonl(all_output, all_output_path)
     print(f"Saved results to {all_output_path}")
@@ -239,5 +238,5 @@ if __name__ == "__main__":
     fig_fpr_tpr(all_output, all_output_path)        
     
     # result visualizations to show 0 to n shot results - make sure you have these results 
-    analyze_final_results(os.path.join(output_dir, f"{dataset}", "results", f"{target_model.split('/')[1]}_{ref_model.split('/')[1]}", f"{sub_dataset}"), show_values=True)
+    analyze_final_results(os.path.join(output_dir, f"{dataset}", f"{target_model.split('/')[1]}_{ref_model.split('/')[1]}", f"{sub_dataset}"), show_values=True)
             
