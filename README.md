@@ -1,12 +1,12 @@
 # ReCaLL: Membership Inference via Relative Conditional Log-Likelihoods 🔍
 
 [![Website](https://img.shields.io/badge/Website-Project%20Page-yellow)](https://royxie.com/recall-project-page)
-[![arXiv](https://img.shields.io/badge/arXiv-2404.02936-b31b1b.svg)](https://arxiv.org/abs/2404.02936)
+[![arXiv](https://img.shields.io/badge/arXiv-2404.02936-b31b1b.svg)](https://arxiv.org/abs/2406.15968)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 
 ## 📝 Overview
-This is the official repository for ReCaLL: Membership Inference via Relative Conditional Log-Likelihoods. The repo contains the original ReCaLL implementation on the WikiMIA benchmark dataset. Check out our [website](https://royxie.com/recall-project-page/) and [paper](https://arxiv.org/abs/2404.02936) for more information.
+This is the official repository for ReCaLL: Membership Inference via Relative Conditional Log-Likelihoods. The repo contains the original ReCaLL implementation on the WikiMIA benchmark dataset. Check out our [website](https://royxie.com/recall-project-page/) and [paper](https://arxiv.org/abs/2406.15968) for more information.
 
 ## 🛠 Installation
    ```bash
@@ -66,7 +66,7 @@ If you use ReCaLL in your research, please cite our paper:
 @article{xie2024recall,
     title={ReCaLL: Membership Inference via Relative Conditional Log-Likelihoods},
     author={Xie, Roy and Wang, Junlin and Huang, Ruomin and Zhang, Minxing and Ge, Rong and Pei, Jian and Gong, Neil Zhenqiang and Dhingra, Bhuwan},
-    journal={arXiv preprint arXiv:1234},
+    journal={arXiv preprint arXiv:2406.15968},
     year={2024}
 }
 ```
