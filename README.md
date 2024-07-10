@@ -6,7 +6,7 @@
 
 
 ## 📝 Overview
-This is the official repository for ReCaLL: Membership Inference via Relative Conditional Log-Likelihoods. The repo contains the original ReCaLL implementation on the WikiMIA benchmark dataset. Check out our [website](https://royxie.com/recall-project-page/) and [paper](https://arxiv.org/abs/2406.15968) for more information.
+This is the official repository for _ReCaLL: Membership Inference via Relative Conditional Log-Likelihoods_. The repo contains the lightweight implementation on the WikiMIA benchmark. Check out our [website](https://royxie.com/recall-project-page/) and [paper](https://arxiv.org/abs/2406.15968) for more information.
 
 ## 🛠 Installation
    ```bash
@@ -59,9 +59,7 @@ Example visualization from 1 - 28 shots:
 </p>
 
 ## 🌟 Citation
-
-If you use ReCaLL in your research, please cite our paper:
-
+If you find this work helpful, please consider citing:
 ```bibtex
 @article{xie2024recall,
     title={ReCaLL: Membership Inference via Relative Conditional Log-Likelihoods},
