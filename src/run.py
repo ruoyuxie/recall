@@ -112,7 +112,7 @@ def inference(model1, model2, tokenizer1, tokenizer2, target_data, prefix, accel
     with torch.no_grad():
         outputs = model1(input_ids, labels=input_ids)
     _, logits = outputs[:2]
-    ll_ref = get_ll(target_data, model2, tokenizer2, accelerator.device)[0]
+    ll_ref = get_ll(target_data, model2, tokenizer2, accelerator.device)[1]
 
     # loss and zlib
     pred["ll"] = ll
