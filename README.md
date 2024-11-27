@@ -1,24 +1,31 @@
 # ReCaLL: Membership Inference via Relative Conditional Log-Likelihoods 🔍
 
 [![Website](https://img.shields.io/badge/Website-Project%20Page-yellow)](https://royxie.com/recall-project-page)
-[![arXiv](https://img.shields.io/badge/arXiv-2404.02936-b31b1b.svg)](https://arxiv.org/abs/2406.15968)
+[![PDF](https://img.shields.io/badge/arXiv-2404.02936-b31b1b.svg)](https://aclanthology.org/2024.emnlp-main.493.pdf)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 
 ## 📝 Overview
-This is the official repository for [ReCaLL: Membership Inference via Relative Conditional Log-Likelihoods (EMNLP 2024)](https://arxiv.org/abs/2406.15968). The repo contains the original ReCaLL implementation on the WikiMIA benchmark dataset. Check out the project [website](https://royxie.com/recall-project-page/) for more information.
+This is the official repository for [ReCaLL: Membership Inference via Relative Conditional Log-Likelihoods (EMNLP 2024)](https://aclanthology.org/2024.emnlp-main.493.pdf). The repo contains the original ReCaLL implementation on the WikiMIA benchmark dataset. Check out the project [website](https://royxie.com/recall-project-page/) for more information.
 
 ⭐ If you find our implementation and paper helpful, please consider citing our work ⭐ :
 
 
 ```bibtex
-@misc{xie2024recall,
-    title={ReCaLL: Membership Inference via Relative Conditional Log-Likelihoods},
-    author={Xie, Roy and Wang, Junlin and Huang, Ruomin and Zhang, Minxing and Ge, Rong and Pei, Jian and Gong, Neil Zhenqiang and Dhingra, Bhuwan},
-    year={2024},
-    eprint={2406.15968},
-    archivePrefix={arXiv},
-    primaryClass={cs.CL}
+@inproceedings{xie-etal-2024-recall,
+    title = "{R}e{C}a{LL}: Membership Inference via Relative Conditional Log-Likelihoods",
+    author = "Xie, Roy  and
+      Wang, Junlin  and
+      Huang, Ruomin  and
+      Zhang, Minxing  and
+      Ge, Rong  and
+      Pei, Jian  and
+      Gong, Neil Zhenqiang  and
+      Dhingra, Bhuwan",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.493",
+    pages = "8671--8689",
 }
 ```
 
