@@ -8,7 +8,7 @@
 ## 📝 Overview
 This is the official repository for [ReCaLL: Membership Inference via Relative Conditional Log-Likelihoods (EMNLP 2024)](https://aclanthology.org/2024.emnlp-main.493.pdf). The repo contains the original ReCaLL implementation on the WikiMIA benchmark dataset. Check out the project [website](https://royxie.com/recall-project-page/) for more information.
 
-⭐ If you find our implementation and paper helpful, please consider citing our work ⭐ :
+⭐ If you find our implementation or paper helpful, please consider citing our work ⭐ :
 
 
 ```bibtex
